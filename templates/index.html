@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kinea Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🖐️ KINEA CONTROL</h1>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Hand State</h3>
+                <p id="state" class="val">---</p>
+            </div>
+
+            <div class="card">
+                <h3>AI Prediction</h3>
+                <p id="pred" class="val">---</p>
+            </div>
+        </div>
+
+        <div class="card wide">
+            <h3>Muscle Signal (RMS)</h3>
+            <p id="rms-text">0.0 V</p>
+            <div class="bar-bg">
+                <div id="rms-bar" class="bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
