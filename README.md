@@ -72,9 +72,11 @@ $$\pm \frac{V_{\text{ref}}}{G} = \frac{\pm 1.65\text{ V}}{495} \approx \pm 3.3\t
 
 That window comfortably covers real surface-EMG amplitudes, and it keeps the signal safely inside the **MCP3008**'s input range, which must stay between 0 V and VDD = 3.3 V. The ADC is 10-bit, so each code is worth 3.3 V / 1024 ≈ 3.22 mV.
 
-**Power supply.** The INA826 needs a symmetric supply, so it runs on +5 V and −5 V rails. Everything else — both MCP6002 op-amps, the reference divider and the MCP3008 — runs on a single 3.3 V rail. (The MCP6002 tops out near 6 V, so it could not sit on the ±5 V rails anyway.) We did not have a bench power supply, so for this proof of concept we used an Arduino to generate and manage the -5 V rail. It is not how a finished product would do it, but it was enough to validate the design.
+**Power supply.** The INA826 needs a symmetric supply, so it runs on +5 V and −5 V rails. Everything else — both MCP6002 op-amps, the reference divider and the MCP3008 — runs on a single 3.3 V rail. (The MCP6002 tops out near 6 V, so it could not sit on the ±5 V rails anyway).
 
 ![Circuit schematic](./hardware/circuit.svg)
+
+The electrodes can be placed in different valid positions.
 
 ![Electrode placement on the forearm](./docs/forearm.jpg)
 
