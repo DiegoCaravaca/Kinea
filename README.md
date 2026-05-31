@@ -194,4 +194,4 @@ The roadmap follows from that:
 
 ## Authors & Methodology
 
-This project was built start to finish in a tight collaboration between @DiegoCaravaca y @AlvaroArriola, using a 100% pair programming approach. There were no split roles. We designed the hardware and wrote the software side by side, working through every problem together: constant technical back-and-forth, shared decisions on the circuit and the code, and debugging as a team. Tackling both the analog hardware and the software this way is a big part of why it came together.
+This project was built start to finish in a tight collaboration between [@DiegoCaravaca](https://github.com/DiegoCaravaca) y [@AlvaroArriola](https://github.com/AlvaroArriola), using a 100% pair programming approach. There were no split roles. We designed the hardware and wrote the software side by side, working through every problem together: constant technical back-and-forth, shared decisions on the circuit and the code, and debugging as a team. Tackling both the analog hardware and the software this way is a big part of why it came together.
