@@ -178,7 +178,7 @@ python3 train_model.py
 
 # 3. Run the live system, then open the dashboard
 python3 app.py
-# visit http://<raspberry-pi-ip>:5000
+# Visit http://<raspberry-pi-ip>:5000
 ```
 
 Paths are resolved relative to the project root, so the scripts work from any directory.
