@@ -1,6 +1,6 @@
 # KINEA: EMG-Controlled Bionic Hand Project
 
-A 3D-printed robotic hand that you control with your own muscles. We read the electrical activity from the forearm with surface electrodes, clean up that signal in hardware, and use it to decide whether the hand should open or close.
+A robotic hand that you control with your own muscles. We read the electrical activity from the forearm with surface electrodes, clean up that signal in hardware, and use it to decide whether the hand should open or close.
 
 Built with Python, Flask, scikit-learn and NumPy on a Raspberry Pi, with a custom INA826 + MCP3008 analog front-end.
 
